@@ -1,0 +1,33 @@
+/*
+*
+* ===  TYPOGRAPHY  ===
+*
+*/
+
+body { font-family: 'Open Sans', sans-serif; font-size: 14px; }
+
+h1, h2, h3, h4, h5 { font-family: 'Open Sans Condensed', sans-serif; }
+
+h1 { font-size: 40px; line-height: 50px; }
+h2 { font-size: 30px; line-height: 40px; }
+h3 { font-size: 20px; line-height: 30px; }
+h4 { font-size: 16px; line-height: 30px; }
+h5 { font-size: 14px; line-height: 30px; }
+
+p { font-size: 14px; line-height: 22px; font-family: 'Open Sans', sans-serif; padding-bottom: 10px; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+em { font-style: italic; }
+strong { font-weight: 700; }
+
+th { font-size: 18px; }
+
+blockquote { font-style: italic; color: #999; padding: 0; }
+
+::-moz-selection { color: #fff; background: #4e74b1; }
+::selection { color: #fff; background: #4e74b1; }
+
+header #top #logo { font-size: 30px; }
+header #top nav ul a { font-size: 16px; font-family: 'Open Sans'; }

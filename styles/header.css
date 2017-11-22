@@ -1,0 +1,28 @@
+/*
+*
+* ===  HEADER  ===
+*
+*/
+
+header { width: 100%; }
+header #top { overflow: auto; padding: 20px 40px 18px; box-shadow: 0px 0px 15px black; width: 100%; position: fixed; background-color: #fff; top: 0; }
+header #top #logo { float: left; }
+header #top #logo a { color: #333; }
+header #top #logo a:hover { text-decoration: none; }
+header #top nav { float: right; }
+header #top nav ul { list-style: none; }
+header #top nav ul a { display: inline-block; padding-right: 15px; color: #333; }
+header #top nav ul a:last-of-type { padding-right: 0; }
+header #top nav ul a li { padding: 7px 20px; }
+header #top nav ul a.active li { background-color: #333; color: #fff; border-radius: 15px; }
+header #top nav ul a.active:hover { text-decoration: none; }
+header #header-image { width: 100%; height: 40vh; margin-top: 41px; background-image: url('../images/img1.jpeg'); background-size: cover; background-position: 50% 70%; }
+
+header #admin_panel { overflow: auto; padding: 10px 40px 8px; box-shadow: 0px 0px 15px black; width: 100%; position: fixed; background-color: #fff; top: 79px; }
+header #admin_panel nav { text-align: center; }
+header #admin_panel nav ul { list-style: none; }
+header #admin_panel nav ul a { display: inline-block; padding-right: 15px; color: #333; }
+header #admin_panel nav ul a:last-of-type { padding-right: 0; }
+header #admin_panel nav ul a li { padding: 3px 10px; }
+header #admin_panel nav ul a.active li { background-color: #333; color: #fff; border-radius: 15px; }
+header #admin_panel nav ul a.active:hover { text-decoration: none; }
